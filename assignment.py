@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+
 fig, ax = plt.subplots(1, 1)
 ax.plot([1, 2, 3], [2, 4, 6], "r--")
 ax.plot([1, 2, 3], [3, 2, 1], "g-")
@@ -8,6 +9,8 @@ plt.show()
 # 1. Does this code create one plotting panel (Axes object) or two?
 # Explain briefly. A panel is a plotting area, not an individual x-axis or y-axis.
 # Your answer:
+# It creates one plotting panel (Axes object) because plt.subplots(1, 1) specifies a single grid cell.
 
 # 2. How many data lines are drawn? What are the y-values of the red dashed line?
 # Your answer:
+# Two data lines are drawn. The y-values of the red dashed line are 2, 4, and 6.
